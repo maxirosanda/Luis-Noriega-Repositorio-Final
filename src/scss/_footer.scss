@@ -1,0 +1,36 @@
+/*footer*/
+.foter{
+    display: flex;
+    justify-content: space-between;
+}
+
+footer{
+    background-color: rgb(252, 24, 24);
+    .redes{
+        margin: 5px;
+        display: flex;
+        flex-direction: column;
+        padding: 5px;
+        font-size: 30px;
+        color: azure;
+    }
+    .menu{
+        display: flex;
+        flex-direction: column;
+        font-size: 15px; 
+        padding: 2px;  
+        color: azure;
+    }
+    .sucursal{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    justify-content: end;
+    padding-right: 20px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    color: azure;
+    }
+}
+
+

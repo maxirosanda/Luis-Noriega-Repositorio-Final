@@ -1,0 +1,24 @@
+/*INDEX*/
+
+.img-indx:hover{
+    transform: scale(1.2,1);
+    transition: 0.5s;
+}
+
+.tarjetas{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.tarjeta{
+    display: flex;
+    width: 350px;
+    column-gap: 5px;
+    margin: 10px;
+}
+
+.h3-index{
+    padding-left: 280px;
+}
+

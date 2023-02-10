@@ -1,0 +1,26 @@
+/*Productos*/
+.h2-produc{
+    padding-left: 425px;
+}
+
+
+
+.producto{
+   @extend %producto;
+    &:hover{
+        transform: scale(1.05);
+        transition: 1.0s;
+    }
+}
+
+.btn{
+    padding: 10px;
+    margin: 10px;
+}
+
+.modelo{
+    @extend %modelo;
+    &:hover{
+       background-color:adjust-hue($color: #f81f1f, $degrees: 0);
+}
+}

@@ -1,0 +1,179 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  color: inherit;
+}
+
+.producto {
+  width: 200px;
+  border: solid;
+  display: inline;
+  position: relative;
+  margin: 10px;
+}
+
+.modelo {
+  margin: 10px;
+  border: solid;
+}
+
+/*Header*/
+.logo {
+  width: 50px;
+  height: 50px;
+  margin: 10px;
+}
+
+/*navbar*/
+.navbar {
+  background-color: rgb(252, 24, 24);
+}
+.navbar > ul {
+  list-style: none;
+  display: flex;
+  justify-content: end;
+  width: 100%;
+}
+.navbar > ul > li > a {
+  display: block;
+  text-decoration: none;
+  font-size: 23px;
+  padding: 25px;
+}
+
+/*Estilos de Letras y colores*/
+h1 {
+  font-style: italic;
+  color: red;
+}
+
+body {
+  font-size: medium;
+  background-color: rgb(190, 255, 255);
+}
+
+/*INDEX*/
+.img-indx:hover {
+  transform: scale(1.2, 1);
+  transition: 0.5s;
+}
+
+.tarjetas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.tarjeta {
+  display: flex;
+  width: 350px;
+  -moz-column-gap: 5px;
+       column-gap: 5px;
+  margin: 10px;
+}
+
+.h3-index {
+  padding-left: 280px;
+}
+
+/*Contactos*/
+form {
+  padding: 10px;
+  border: 1px solid;
+  width: 390px;
+  margin: 10px;
+}
+
+/*Productos*/
+.h2-produc {
+  padding-left: 425px;
+}
+
+.producto:hover {
+  transform: scale(1.05);
+  transition: 1s;
+}
+
+.btn {
+  padding: 10px;
+  margin: 10px;
+}
+
+.modelo:hover {
+  background-color: #f81f1f;
+}
+
+/*Nosotros*/
+.nosotros-img {
+  width: 550px;
+  padding: 30px;
+  display: block;
+}
+
+.nosotros {
+  border-radius: 8px;
+  border: solid 2px;
+  margin: 5px;
+}
+
+.nosotrostit {
+  margin: 10px;
+  text-align: center;
+}
+
+.nosotrosdec {
+  margin: 10px;
+  text-align: center;
+}
+
+/*FAQ*/
+.h2-faq1 {
+  text-align: center;
+}
+
+.h2-faq2 {
+  text-align: center;
+}
+
+.h3-faq {
+  text-align: center;
+}
+
+/*footer*/
+.foter {
+  display: flex;
+  justify-content: space-between;
+}
+
+footer {
+  background-color: rgb(252, 24, 24);
+}
+footer .redes {
+  margin: 5px;
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  font-size: 30px;
+  color: azure;
+}
+footer .menu {
+  display: flex;
+  flex-direction: column;
+  font-size: 15px;
+  padding: 2px;
+  color: azure;
+}
+footer .sucursal {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  justify-content: end;
+  padding-right: 20px;
+  padding-bottom: 15px;
+  padding-left: 10px;
+  color: azure;
+}
